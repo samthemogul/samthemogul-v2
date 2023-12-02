@@ -3,6 +3,7 @@ import '@styles/globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
+
 export const metadata  = {
     title : "Sam Themogul",
     description : "Portfolio"
@@ -18,7 +19,7 @@ const Rootlayout = ({ children }) => {
               <main className="app">
                   <Nav/>
                   {children}
-                  <Footer/>
+                  <Footer/> 
               </main>
           </body>
       </html>
