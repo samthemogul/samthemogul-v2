@@ -13,6 +13,7 @@
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
+
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -77,7 +78,11 @@
 /* Tailwind Styles */
 
 .app {
-  width: 100vw;
+  @apply relative overflow-x-hidden flex justify-center flex-col items-center px-5 sm:px-32 z-10 box-border;
+
+}
+
+/* .app {
   position: relative;
   overflow-x: hidden;
   display: flex;
@@ -85,12 +90,13 @@
   flex-direction: column;
   padding: 10px 10%;
   z-index: 10;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 640px) {
   .app {
     padding: 5px 5%;
   }
-}
+} */
 
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
