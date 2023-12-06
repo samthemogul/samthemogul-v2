@@ -112,6 +112,9 @@
 .blue_color {
   @apply bg-indigo-500
 }
+.flex-30 {
+  flex-basis: 30%;
+}
 
 .orange_gradient {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
@@ -138,7 +141,7 @@
 }
 
 .glassmorphism {
-  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
+  @apply rounded-lg sm:rounded-3xl bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
 }
 
 .prompt_layout {
@@ -165,7 +168,7 @@
 }
 
 .dropdown {
-  @apply absolute justify-center  top-full shadow-lg mt-3 w-full p-10 rounded-lg bg-white min-w-[210px] flex flex-col gap-2;
+  @apply absolute justify-center  top-12 shadow-lg mt-3 w-full p-10 rounded-lg bg-white min-w-[210px] flex flex-col gap-2;
 }
 
 .dropdown_link {

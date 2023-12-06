@@ -4,6 +4,7 @@ export const technologies = [
   { id: 3, name: "JavaScript", percentage: 70 },
   { id: 4, name: "ReactJS", percentage: 60 },
   { id: 5, name: "NextJS", percentage: 60 },
+  { id: 6, name: "RTK", percentage: 60 },
   { id: 7, name: "NodeJS", percentage: 30 },
   { id: 8, name: "MongoDB", percentage: 20 },
   { id: 9, name: "SQL", percentage: 10 },
@@ -36,19 +37,19 @@ export const projects = [
     id: 1,
     name: "Passhash Password Manager",
     description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    links: { github: "", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+      "Passhash Password Manager application is designed to help you securely store and manage your passwords, making your online life more convenient and secure.",
+    image: "/assets/images/passhash.png",
+    links: { github: "https://github.com/samthemogul/pass-hash", site: "https://passhash-app.web.app/" },
+    techs: ['React', 'SCSS', 'Express', 'Redux', 'MongoDB', 'Firebase']
   },
   {
     id: 2,
     name: "Promptbook",
     description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    links: { github: "", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+      "Prompt Book is an open-source AI prompting tool for modern world to discover, create and share creative prompts",
+    image: "/assets/images/promptbook.png",
+    links: { github: "https://github.com/samthemogul/share-prompts", site: "" },
+    techs: ['NextJS', 'Tailwind CSS', 'Express', 'MongoDB']
   },
 ];
 
@@ -59,7 +60,7 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "", site: "" },
+    links: { github: "https://github.com/", site: "" },
     techs: ['React', 'Tailwind', 'Express']
   },
   {
@@ -68,7 +69,7 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "", site: "" },
+    links: { github: "https://github.com/", site: "" },
     techs: ['React', 'Tailwind', 'Express']
   },
   {
@@ -77,7 +78,7 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "", site: "" },
+    links: { github: "https://github.com/", site: "" },
     techs: ['React', 'Tailwind', 'Express']
   },
   {
@@ -86,7 +87,7 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "", site: "" },
+    links: { github: "https://github.com/", site: "" },
     techs: ['React', 'Tailwind', 'Express']
   },
   {
@@ -95,7 +96,25 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "", site: "" },
+    links: { github: "https://github.com/", site: "" },
+    techs: ['React', 'Tailwind', 'Express']
+  },
+  {
+    id: 6,
+    name: "Flask Quiz App",
+    description:
+      "This is my portfolio website, built with NextJS and Tailwind CSS.",
+    image: "/images/portfolio.png",
+    links: { github: "https://github.com/", site: "" },
+    techs: ['React', 'Tailwind', 'Express']
+  },
+  {
+    id: 7,
+    name: "Flask Quiz App",
+    description:
+      "This is my portfolio website, built with NextJS and Tailwind CSS.",
+    image: "/images/portfolio.png",
+    links: { github: "https://github.com/", site: "" },
     techs: ['React', 'Tailwind', 'Express']
   },
 ];
