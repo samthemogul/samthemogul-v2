@@ -5,9 +5,9 @@ import Skills from "@components/Skills";
 
 const About = () => {
   return (
-    <div id="about" className="mt-32 sm:flex sm:p-10 sm:justify-center sm:flex-row gap-10 flex-col">
-      <div className="flex flex-col gap-5 mb-10">
-        <h1 className="font-bold text-xl">
+    <div id="about" className="mt-32 sm:grid sm:gap-30 sm:justify-center sm:grid-rows-2 gap-10 flex-col">
+      <div className="flex flex-col gap-5 mb-10 basis-1/2">
+        <h1 className="font-bold text-xl headers">
           <span className="text-indigo-500">01. </span>
           About me
         </h1>
@@ -33,7 +33,7 @@ const About = () => {
           <Skills />
         </div>
       </div>
-      <div className="w-full relative flex justify-center items-center">
+      <div className="w-full bg-indigo-500 relative flex justify-center items-center">
         <Image
           src="/assets/images/photo_pic.svg"
           alt="Samuel Emeka"

@@ -5,6 +5,7 @@ config.autoAddCss = false
 
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import Socials from '@components/Socials';
 
 
 export const metadata  = {
@@ -21,6 +22,7 @@ const Rootlayout = ({ children }) => {
               </div>
               <main className="app">
                   <Nav/>
+                  <Socials/>
                   {children}
                   <Footer/> 
               </main>

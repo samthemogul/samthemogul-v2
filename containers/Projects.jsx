@@ -22,8 +22,8 @@ const Projects = () => {
   }
   return (
     <div id="projects" className=" w-full flex gap-5 mt-32 flex-col">
-      <h1 className="font-bold text-xl">
-        <span className="text-indigo-500">02. </span>
+      <h1 className="font-bold text-xl headers proj-head">
+        <span className="text-indigo-500 ">02. </span>
         Projects I've built
       </h1>
       {/* Featured Projects */}
@@ -41,10 +41,10 @@ const Projects = () => {
       </div>
 
       {/* Other Noteworthy Projects */}
-      <h1 className="font-bold text-xl mt-10">
+      <h1 className="font-bold others text-xl mt-10">
         Other noteworthy projects
       </h1>
-      <div className="flex flex-col sm:flex-row justify-center flex-wrap gap-5">
+      <div className="sides flex flex-col sm:flex-row justify-center flex-wrap gap-5">
         {otherProjects.slice(0, visibleProjects).map((project) => (
           <SideProject
             key={project.id}
