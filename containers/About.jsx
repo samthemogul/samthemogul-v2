@@ -5,7 +5,7 @@ import Skills from "@components/Skills";
 
 const About = () => {
   return (
-    <div id="about" className="mt-32 sm:flex sm:flex-row gap-10 flex-col">
+    <div id="about" className="mt-32 sm:flex sm:p-10 sm:justify-center sm:flex-row gap-10 flex-col">
       <div className="flex flex-col gap-5 mb-10">
         <h1 className="font-bold text-xl">
           <span className="text-indigo-500">01. </span>

@@ -16,10 +16,10 @@ const Nav = () => {
   }
 
   return (
-    <section className='fixed z-20 top-0 w-full sm:w-11/12 sm:top-8 flex item-center justify-center glassmorphism'>
+    <section className='fixed z-20 top-0 w-full sm:w-11/12 sm:top-5 flex item-center justify-center glassmorphism'>
       <nav className='flex w-full sm:gap-40 gap-10 justify-between items-center relative'>
         <div>
-            <Link href="/">
+            <Link href="/"> 
             <h1 className='font-bold sm:text-2xl text-lg'>samthemogul<span className='blue_gradient'>.</span></h1>
             </Link>
         </div>
