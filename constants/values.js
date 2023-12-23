@@ -90,5 +90,14 @@ export const otherProjects = [
     links: { github: "https://github.com/kibo-web-app-dev-oct-23/midterm-project-quiz-app-wad-men-i-trust", site: "https://country-quiz-lclj.onrender.com/" },
     techs: ['Python', 'Flask', 'CSS', 'Javascript']
   },
+  {
+    id: 5,
+    name: "The Weather Dashboard",
+    description:
+      "A simple weather application dashboard built with React and OpenWeather Api",
+    image: "/images/portfolio.png",
+    links: { github: "https://github.com/samthemogul/the_weather_app", site: "https://theweader.netlify.app/" },
+    techs: ['React', 'Rest API', 'CSS']
+  },
 
 ];
