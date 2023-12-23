@@ -10,8 +10,8 @@ const Socials = () => {
                 <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://github.com/samthemogul`}><FontAwesomeIcon icon={faGithub} /></Link></span>
                 <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://linkedin.com/in/samthemogul`}><FontAwesomeIcon icon={faLinkedin} /></Link></span>
                 <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://x.com/samthemogul`}><FontAwesomeIcon icon={faXTwitter} /></Link></span>
-                <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://web.whatsapp.com`}><FontAwesomeIcon icon={faWhatsapp} /></Link></span>
-                <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://instagram.com/samthemogul`}><FontAwesomeIcon icon={faInstagram} /></Link></span>
+                <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://wa.link/eegps9`}><FontAwesomeIcon icon={faWhatsapp} /></Link></span>
+                <span className='text-2xl text-gray-700 hover:text-indigo-500 duration-300'><Link href={`https://instagram.com/sam_themogul`}><FontAwesomeIcon icon={faInstagram} /></Link></span>
         </div>
     );
 }

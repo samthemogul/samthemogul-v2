@@ -40,7 +40,7 @@ export const projects = [
       "Passhash Password Manager application is designed to help you securely store and manage your passwords, making your online life more convenient and secure.",
     image: "/assets/images/passhash.png",
     links: { github: "https://github.com/samthemogul/pass-hash", site: "https://passhash-app.web.app/" },
-    techs: ['React', 'SCSS', 'Express', 'Redux', 'MongoDB', 'Firebase']
+    techs: ['React', 'SCSS', 'Express', 'Redux', 'MongoDB', 'Firebase', 'Node.js']
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ export const projects = [
     description:
       "Prompt Book is an open-source AI prompting tool for modern world to discover, create and share creative prompts",
     image: "/assets/images/promptbook.png",
-    links: { github: "https://github.com/samthemogul/share-prompts", site: "" },
+    links: { github: "https://github.com/samthemogul/share-prompts", site: "https://promptbook.netlify.app/" },
     techs: ['NextJS', 'Tailwind CSS', 'Express', 'MongoDB']
   },
 ];
@@ -58,10 +58,10 @@ export const otherProjects = [
     id: 1,
     name: "PeakAnArt",
     description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
+      "A virtual art gallery for art enthusiasts",
     image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+    links: { github: "https://github.com/kibo-web-dev-fundamentals-july-23/wdf-jul-23-final-project-wdf-men-i-trust-1", site: "https://peakanart.vercel.app/" },
+    techs: ['HTML', 'CSS', 'Javascript']
   },
   {
     id: 2,
@@ -69,52 +69,26 @@ export const otherProjects = [
     description:
       "This is my portfolio website, built with NextJS and Tailwind CSS.",
     image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+    links: { github: "https://github.com/samthemogul/samthemogul-v2", site: "" },
+    techs: ['Next.js', 'Tailwind']
   },
   {
     id: 3,
     name: "Staybnb",
     description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
+      "A website for folks to earn money from renting their houses.",
     image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+    links: { github: "https://github.com/samthemogul/stay-bnb", site: "https://samthemogul.github.io/stay-bnb/StayBnb/home.html" },
+    techs: ['HTML', 'CSS', 'Javascript']
   },
   {
     id: 4,
     name: "Flask Quiz App",
     description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
+      "A simple quiz application built with Python and Flask",
     image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
+    links: { github: "https://github.com/kibo-web-app-dev-oct-23/midterm-project-quiz-app-wad-men-i-trust", site: "https://country-quiz-lclj.onrender.com/" },
+    techs: ['Python', 'Flask', 'CSS', 'Javascript']
   },
-  {
-    id: 5,
-    name: "Flask Quiz App",
-    description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
-  },
-  {
-    id: 6,
-    name: "Flask Quiz App",
-    description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
-  },
-  {
-    id: 7,
-    name: "Flask Quiz App",
-    description:
-      "This is my portfolio website, built with NextJS and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    links: { github: "https://github.com/", site: "" },
-    techs: ['React', 'Tailwind', 'Express']
-  },
+
 ];

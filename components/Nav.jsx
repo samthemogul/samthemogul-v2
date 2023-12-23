@@ -33,7 +33,7 @@ const Nav = () => {
             
         </ul>
         </div>
-        <button className='sm:text-lg hidden sm:flex w-40 text-base blue_color text-white px-5 py-2 rounded-lg hover:bg-gray-700 duration-300'>Download CV</button>
+        <Link href="/Samuel-Emeka-Fullstack Engineer Resume.pdf" className='sm:text-lg hidden sm:flex w-40 text-base blue_color text-white px-5 py-2 rounded-lg hover:bg-gray-700 duration-300'>Download CV</Link>
       
 
         {/* Mobile Navigation */}
@@ -43,7 +43,7 @@ const Nav = () => {
             <li onClick={handleDropdown} className='hover:text-indigo-500 duration-300'><Link href="#about">About</Link></li>
             <li onClick={handleDropdown} className='hover:text-indigo-500 duration-300'><Link href="#projects">Projects</Link></li>
             <li onClick={handleDropdown} className='hover:text-indigo-500 duration-300'><Link href="#contact">Contact</Link></li>
-            <button className='sm:text-lg w-40 text-base blue_color text-white px-5 py-2 rounded-lg hover:bg-gray-700 duration-300'>Download CV</button>
+            <Link href="/Samuel-Emeka-Fullstack Engineer Resume.pdf" className='sm:text-lg w-40 text-base blue_color text-white px-5 py-2 rounded-lg hover:bg-gray-700 duration-300'>Download CV</Link>
         </ul>
           </div>
         )}

@@ -12,17 +12,23 @@ const About = () => {
           About me
         </h1>
         <p className="text-gray-600">
-          I am really passionate about design and code, and I always search out
-          new ways that I can merge these two together to produce outstanding
-          projects. This is why I focus on building the part of web and mobile
-          applications that the user can see. have have build a number of
-          personal projects ranginf from static company websites, SPAs to MPAs
-          and mobile applications. Currently, I am the lead developer at VAPO
-          Inc, a cryptocurrency payment gateway service company where I am a
-          part of the web and mobile application interface and user experience
-          design process. My goal as a developer is to build applications that
-          are user-friendly, functional and help businesses provide the best
-          experiences to their customers.
+        I am deeply passionate about the synergy between design
+         and code, constantly seeking innovative ways to merge 
+         these elements to create exceptional projects. My focus 
+         lies in crafting the visible aspects of web and mobile 
+         applications, where I bring my expertise to life. Over 
+         time, I've successfully developed a diverse range of 
+         personal projects, including static company websites, 
+         Single Page Applications (SPAs), Multi-Page Applications 
+         (MPAs), and mobile applications. Currently, I hold the 
+         position of lead developer at VAPO Inc, a cryptocurrency 
+         payment gateway service company. In this role, I actively 
+         contribute to the design process of web and mobile 
+         application interfaces, emphasizing user experience 
+         design. My overarching goal as a developer is to 
+         create applications that are not only user-friendly 
+         and functional but also empower businesses to deliver 
+         exceptional experiences to their customers.
         </p>
         <div>
           <h4 className="font-bold my-3">Technologies I use:</h4>
@@ -35,7 +41,7 @@ const About = () => {
       </div>
       <div className="w-full bg-indigo-500 relative flex justify-center items-center">
         <Image
-          src="/assets/images/photo_pic.svg"
+          src="/assets/images/customprofile.png"
           alt="Samuel Emeka"
           width={300}
           height={300}

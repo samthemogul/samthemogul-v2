@@ -20,7 +20,7 @@ const Project = ({ name, image, description, links, techs }) => {
         <p className="text-white text-md">{description}</p>
         <ul className="flex flex-wrap gap-3">
         {techs.map((tech) => (
-          <li key={tech} className="text-white hover:text-indigo-500">{tech}</li>
+          <li key={tech} className="text-white text-sm italic hover:text-indigo-500">{tech}</li>
         ))}
         </ul>
         <ul className="flex gap-5">
